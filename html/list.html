@@ -1,5 +1,7 @@
 <html>
     <header>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/crud_operations.js"></script>
 
@@ -10,7 +12,7 @@
     <body>
         <br/>
         <div class="container" style="text-align:right">
-            <button id="btncreate" type="button" class="btn btn-info navbar-btn">Crear Nueva Factura</button>
+            <button id="btncreate" type="button" class="btn btn-warning navbar-btn">Crear Nueva Factura</button>
         </div>
         <br/>
         <div class="container">
@@ -22,6 +24,7 @@
                         <th>Fecha</th>
                         <th>NIT</th>
                         <th>Nombre</th>
+                        <th>Anulada</th>
                         <th></th>
                     </tr>
                     <tr>
@@ -30,6 +33,7 @@
                         <td>01/01/2018</td>
                         <td>7654321-1</td>
                         <td>Maria Anders</td>
+                        <td>No</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
@@ -40,6 +44,7 @@
                         <td>05/01/2018</td>
                         <td>7572413-8</td>
                         <td>Francisco Chang</td>
+                        <td>Si</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
@@ -50,6 +55,7 @@
                         <td>02/02/2018</td>
                         <td>2035684-9</td>
                         <td>Roland Mendel</td>
+                        <td>No</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
@@ -60,6 +66,7 @@
                         <td>27/02/2018</td>
                         <td>5256585-4</td>
                         <td>Helen Bennett</td>
+                        <td>No</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
@@ -70,6 +77,7 @@
                         <td>08/06/2018</td>
                         <td>7582458-6</td>
                         <td>Yoshi Tannamuri</td>
+                        <td>No</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
@@ -80,6 +88,7 @@
                         <td>07/08/2018</td>
                         <td>2563452-1</td>
                         <td>Giovanni Rovelli</td>
+                        <td>No</td>
                         <td><button id="btndetail" type="button" class="btn btn-info navbar-btn">Detalle</button> | 
                             <button id="btnedit" type="button" class="btn btn-info navbar-btn">Editar</button> | 
                             <button id="btndelete" type="button" class="btn btn-info navbar-btn">Borrar</button></td>
