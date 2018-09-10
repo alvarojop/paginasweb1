@@ -41,4 +41,10 @@ $(document).ready(function(){
         });
     });
 
+    $('#btnback').click(function () {
+        $('#divPartialView').load('html/list.html', function(data) {
+            $(this).html(data);
+        });
+    });
+
 });
